@@ -1,0 +1,54 @@
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+h2 {
+    text-align: left;
+    color: gray;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-color: lightgrey;
+    padding-bottom: 20px;
+    border-width: 1px;
+}
+
+.container li{
+    text-decoration-line: none;
+}
+
+body {
+    font-family: 'Cutive Mono', monospace;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
+    padding: 40px;
+    margin: 40px;
+}
+
+main {
+    text-align: left;
+}
+
+footer {
+    font-weight: normal;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    text-align: center;
+}
+
