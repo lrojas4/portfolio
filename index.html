@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <title>Lorena's Portfolio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1> Lorena Rojas </h1>
-            <nav>
-                <ul class="container">
-                    <li class="Home"><a href="index.html">Home</a></li>
-                    <li class="Projects"><a href="projects.html">Projects</a></li>
-                    <li class="Github"><a href="https://github.com/lrojas4" target="_blank">Github</a></li>
-                </ul>
-            </nav>
+            <ul class="list">
+                <li><a href="#about-me">About Me</a></li>
+                <li class="Projects"><a href="#projects">Projects</a></li>
+                <li class="Github"><a href="https://github.com/lrojas4" target="_blank">Github</a></li>
+            </ul>
         </header>
-        
-        <hr>
-        <main>
-            <h2> Welcome to my Portfolio </h2>
-            <h3> About Me </h3>
-            <p> Hello my name is Lorena.....</p>
-            <h3> Projects </h3>
-            <p>Projects coming soon....</p>
+        <main id="about-me">
+            <img class="profile-img" src="./images/profile.png">
         </main>
-        
-        <footer>
-            <h3> Contact Me </h3>
-            <p> Find me on <a href="https://medium.com/@lochan04" target="_blank">Medium</a> and <a href="https://github.com/lrojas4" target="_blank">Github</a></p>
-            <hr>
-            <h6 id="footer"> Copyright 2023: Lorena Rojas </h6>
+        <section class="main-right">
+            <p>Hello, my name is Lorena and I'm a Software Engineer based in Chicago, IL.</p>
+        </section>
+        <section id="projects" class="space">Projects</section>
+        <section class="left">
+            <a href="https://lrojas4.github.io/tic-tac-toe/" target="_blank">
+                <img id="project1" class="hover-img" src="./images/tic-tac-toe.png">
+            </a>
+        </section>
+        <section class = "middle">
+            <a href="https://github.com/lrojas4/expense-tracker-backend" target="_blank">
+                <img id="project2" class="hover-img" src="./images/expense-tracker.png">
+            </a>
+            
+        </section>
+        <section class = "right">
+            <ul class="other-projects">
+                <li><a href="https://github.com/lrojas4/tic-tac-toe" target="_blank">Tic Tac Toe</a></li>
+                <li><a href="https://github.com/lrojas4/rock-paper-scissors" target="_blank">Rock Paper Scissors</a></li>
+                <li><a href="https://github.com/lrojas4/coffee-api" target="_blank">Coffee API</a></li>
+                <li><a href="https://github.com/EdgarJoell/real-estate-api" target="_blank">Real-Estate API</a></li>
+                <li><a href="https://github.com/maklaut007/wayfarer" target="_blank">Wayfarer</a></li>
+                <li><a href="https://github.com/lrojas4/expense-tracker-backend" target="_blank">Expense Tracker API</a></li>
+                <li><a href="https://github.com/lrojas4/expense-tracker-frontend" target="_blank">Expense Tracker Front-end</a></li>
+            </ul>
+        </section> 
+        <footer class="footer">
+            <a href="https://github.com/lrojas4" target="_blank">Lorena Rojas</a>
         </footer>
         
     </body>
